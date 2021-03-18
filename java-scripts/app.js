@@ -1,10 +1,10 @@
 
 // this is hiba's js file 
 
-alert("hello!My name is Hiba and i woild like to know more about you.");
+alert("hello! My name is Hiba and i would like to know more about you.");
 var UserName = prompt("what is your name?");
 var Age = prompt("hello " + UserName + "! how old are you?");
-document.write("<h4>"+"name " + UserName +"age " + Age +"</h4>");
+document.write("<h4>"+"name " + UserName +" age " + Age +"</h4>");
 console.log(UserName,Age);
 
 var favoriteColor = prompt("red or blue?");
