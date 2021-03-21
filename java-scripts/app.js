@@ -41,7 +41,7 @@ else if (favoriteColor == 'blue'){
 for (var i = 0; i < NumberOfColorplattes; i++){
      result+=colorPlatte ;
     }
-document.write(result);
+document.write(result + i);
 console.log(result);
 
 
