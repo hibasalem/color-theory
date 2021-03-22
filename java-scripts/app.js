@@ -18,9 +18,9 @@ function getfavorateColor(userFavorateColor) {
     };
 
     if (userFavorateColor == "red") {
-        console.log('red'), document.body.style.backgroundColor = "#FA8072";
+        console.log('red');
     } else if (userFavorateColor == "blue") {
-        console.log('blue'), document.body.style.backgroundColor = "#ADD8E6";
+        console.log('blue');
     }
     else {
         console.log('not red not blue')
@@ -30,7 +30,6 @@ function getfavorateColor(userFavorateColor) {
 getfavorateColor(favoriteColor);
 console.log(getfavorateColor(favoriteColor));
 
-alert("your page will be in your favorite color!");
 document.write("<h4>" + "favorite Color " + favoriteColor + "</h4>");
 
 
